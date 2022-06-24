@@ -12,6 +12,6 @@ commonLabels:
   app.openshift.io/runtime: quarkus
 
 resources:
-- deployment.yml
-- route.yml
-- service.yml
+- deployment.yaml
+- route.yaml
+- service.yaml
