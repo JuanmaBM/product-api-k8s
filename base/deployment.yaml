@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: product-api
-        image: quay.io/jbarea/product-api:1.0
+        image: quay.io/jbarea/product-api:latest
         ports:
         - containerPort: 8080
           protocol: TCP
