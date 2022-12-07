@@ -2,6 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: product-api
+  namespace: pro-shop
 spec:
   replicas: 1
   selector:
